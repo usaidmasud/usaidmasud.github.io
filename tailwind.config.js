@@ -10,6 +10,7 @@ module.exports = {
       "-16": "-4rem",
       "-20": "-6rem",
       "-24": "-8rem",
+      0: "0",
     },
     extend: {
       colors: {

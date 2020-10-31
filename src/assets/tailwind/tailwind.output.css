@@ -18013,6 +18013,13 @@ video {
   position: sticky;
 }
 
+.inset-0{
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .inset-1\/2{
   top: 50%;
   right: 50%;
@@ -18039,6 +18046,16 @@ video {
   right: -8rem;
   bottom: -8rem;
   left: -8rem;
+}
+
+.inset-y-0{
+  top: 0;
+  bottom: 0;
+}
+
+.inset-x-0{
+  right: 0;
+  left: 0;
 }
 
 .inset-y-1\/2{
@@ -18079,6 +18096,22 @@ video {
 .-inset-x-24{
   right: -8rem;
   left: -8rem;
+}
+
+.top-0{
+  top: 0;
+}
+
+.right-0{
+  right: 0;
+}
+
+.bottom-0{
+  bottom: 0;
+}
+
+.left-0{
+  left: 0;
 }
 
 .top-1\/2{
@@ -18145,6 +18178,13 @@ video {
   left: -8rem;
 }
 
+.hover\:inset-0:hover{
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .hover\:inset-1\/2:hover{
   top: 50%;
   right: 50%;
@@ -18171,6 +18211,16 @@ video {
   right: -8rem;
   bottom: -8rem;
   left: -8rem;
+}
+
+.hover\:inset-y-0:hover{
+  top: 0;
+  bottom: 0;
+}
+
+.hover\:inset-x-0:hover{
+  right: 0;
+  left: 0;
 }
 
 .hover\:inset-y-1\/2:hover{
@@ -18211,6 +18261,22 @@ video {
 .hover\:-inset-x-24:hover{
   right: -8rem;
   left: -8rem;
+}
+
+.hover\:top-0:hover{
+  top: 0;
+}
+
+.hover\:right-0:hover{
+  right: 0;
+}
+
+.hover\:bottom-0:hover{
+  bottom: 0;
+}
+
+.hover\:left-0:hover{
+  left: 0;
 }
 
 .hover\:top-1\/2:hover{
@@ -18277,6 +18343,13 @@ video {
   left: -8rem;
 }
 
+.focus\:inset-0:focus{
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .focus\:inset-1\/2:focus{
   top: 50%;
   right: 50%;
@@ -18303,6 +18376,16 @@ video {
   right: -8rem;
   bottom: -8rem;
   left: -8rem;
+}
+
+.focus\:inset-y-0:focus{
+  top: 0;
+  bottom: 0;
+}
+
+.focus\:inset-x-0:focus{
+  right: 0;
+  left: 0;
 }
 
 .focus\:inset-y-1\/2:focus{
@@ -18343,6 +18426,22 @@ video {
 .focus\:-inset-x-24:focus{
   right: -8rem;
   left: -8rem;
+}
+
+.focus\:top-0:focus{
+  top: 0;
+}
+
+.focus\:right-0:focus{
+  right: 0;
+}
+
+.focus\:bottom-0:focus{
+  bottom: 0;
+}
+
+.focus\:left-0:focus{
+  left: 0;
 }
 
 .focus\:top-1\/2:focus{
@@ -41298,6 +41397,13 @@ video {
     position: sticky;
   }
 
+  .sm\:inset-0{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .sm\:inset-1\/2{
     top: 50%;
     right: 50%;
@@ -41324,6 +41430,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .sm\:inset-y-0{
+    top: 0;
+    bottom: 0;
+  }
+
+  .sm\:inset-x-0{
+    right: 0;
+    left: 0;
   }
 
   .sm\:inset-y-1\/2{
@@ -41364,6 +41480,22 @@ video {
   .sm\:-inset-x-24{
     right: -8rem;
     left: -8rem;
+  }
+
+  .sm\:top-0{
+    top: 0;
+  }
+
+  .sm\:right-0{
+    right: 0;
+  }
+
+  .sm\:bottom-0{
+    bottom: 0;
+  }
+
+  .sm\:left-0{
+    left: 0;
   }
 
   .sm\:top-1\/2{
@@ -41430,6 +41562,13 @@ video {
     left: -8rem;
   }
 
+  .sm\:hover\:inset-0:hover{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .sm\:hover\:inset-1\/2:hover{
     top: 50%;
     right: 50%;
@@ -41456,6 +41595,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .sm\:hover\:inset-y-0:hover{
+    top: 0;
+    bottom: 0;
+  }
+
+  .sm\:hover\:inset-x-0:hover{
+    right: 0;
+    left: 0;
   }
 
   .sm\:hover\:inset-y-1\/2:hover{
@@ -41496,6 +41645,22 @@ video {
   .sm\:hover\:-inset-x-24:hover{
     right: -8rem;
     left: -8rem;
+  }
+
+  .sm\:hover\:top-0:hover{
+    top: 0;
+  }
+
+  .sm\:hover\:right-0:hover{
+    right: 0;
+  }
+
+  .sm\:hover\:bottom-0:hover{
+    bottom: 0;
+  }
+
+  .sm\:hover\:left-0:hover{
+    left: 0;
   }
 
   .sm\:hover\:top-1\/2:hover{
@@ -41562,6 +41727,13 @@ video {
     left: -8rem;
   }
 
+  .sm\:focus\:inset-0:focus{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .sm\:focus\:inset-1\/2:focus{
     top: 50%;
     right: 50%;
@@ -41588,6 +41760,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .sm\:focus\:inset-y-0:focus{
+    top: 0;
+    bottom: 0;
+  }
+
+  .sm\:focus\:inset-x-0:focus{
+    right: 0;
+    left: 0;
   }
 
   .sm\:focus\:inset-y-1\/2:focus{
@@ -41628,6 +41810,22 @@ video {
   .sm\:focus\:-inset-x-24:focus{
     right: -8rem;
     left: -8rem;
+  }
+
+  .sm\:focus\:top-0:focus{
+    top: 0;
+  }
+
+  .sm\:focus\:right-0:focus{
+    right: 0;
+  }
+
+  .sm\:focus\:bottom-0:focus{
+    bottom: 0;
+  }
+
+  .sm\:focus\:left-0:focus{
+    left: 0;
   }
 
   .sm\:focus\:top-1\/2:focus{
@@ -64518,6 +64716,13 @@ video {
     position: sticky;
   }
 
+  .md\:inset-0{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .md\:inset-1\/2{
     top: 50%;
     right: 50%;
@@ -64544,6 +64749,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .md\:inset-y-0{
+    top: 0;
+    bottom: 0;
+  }
+
+  .md\:inset-x-0{
+    right: 0;
+    left: 0;
   }
 
   .md\:inset-y-1\/2{
@@ -64584,6 +64799,22 @@ video {
   .md\:-inset-x-24{
     right: -8rem;
     left: -8rem;
+  }
+
+  .md\:top-0{
+    top: 0;
+  }
+
+  .md\:right-0{
+    right: 0;
+  }
+
+  .md\:bottom-0{
+    bottom: 0;
+  }
+
+  .md\:left-0{
+    left: 0;
   }
 
   .md\:top-1\/2{
@@ -64650,6 +64881,13 @@ video {
     left: -8rem;
   }
 
+  .md\:hover\:inset-0:hover{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .md\:hover\:inset-1\/2:hover{
     top: 50%;
     right: 50%;
@@ -64676,6 +64914,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .md\:hover\:inset-y-0:hover{
+    top: 0;
+    bottom: 0;
+  }
+
+  .md\:hover\:inset-x-0:hover{
+    right: 0;
+    left: 0;
   }
 
   .md\:hover\:inset-y-1\/2:hover{
@@ -64716,6 +64964,22 @@ video {
   .md\:hover\:-inset-x-24:hover{
     right: -8rem;
     left: -8rem;
+  }
+
+  .md\:hover\:top-0:hover{
+    top: 0;
+  }
+
+  .md\:hover\:right-0:hover{
+    right: 0;
+  }
+
+  .md\:hover\:bottom-0:hover{
+    bottom: 0;
+  }
+
+  .md\:hover\:left-0:hover{
+    left: 0;
   }
 
   .md\:hover\:top-1\/2:hover{
@@ -64782,6 +65046,13 @@ video {
     left: -8rem;
   }
 
+  .md\:focus\:inset-0:focus{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .md\:focus\:inset-1\/2:focus{
     top: 50%;
     right: 50%;
@@ -64808,6 +65079,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .md\:focus\:inset-y-0:focus{
+    top: 0;
+    bottom: 0;
+  }
+
+  .md\:focus\:inset-x-0:focus{
+    right: 0;
+    left: 0;
   }
 
   .md\:focus\:inset-y-1\/2:focus{
@@ -64848,6 +65129,22 @@ video {
   .md\:focus\:-inset-x-24:focus{
     right: -8rem;
     left: -8rem;
+  }
+
+  .md\:focus\:top-0:focus{
+    top: 0;
+  }
+
+  .md\:focus\:right-0:focus{
+    right: 0;
+  }
+
+  .md\:focus\:bottom-0:focus{
+    bottom: 0;
+  }
+
+  .md\:focus\:left-0:focus{
+    left: 0;
   }
 
   .md\:focus\:top-1\/2:focus{
@@ -87738,6 +88035,13 @@ video {
     position: sticky;
   }
 
+  .lg\:inset-0{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .lg\:inset-1\/2{
     top: 50%;
     right: 50%;
@@ -87764,6 +88068,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .lg\:inset-y-0{
+    top: 0;
+    bottom: 0;
+  }
+
+  .lg\:inset-x-0{
+    right: 0;
+    left: 0;
   }
 
   .lg\:inset-y-1\/2{
@@ -87804,6 +88118,22 @@ video {
   .lg\:-inset-x-24{
     right: -8rem;
     left: -8rem;
+  }
+
+  .lg\:top-0{
+    top: 0;
+  }
+
+  .lg\:right-0{
+    right: 0;
+  }
+
+  .lg\:bottom-0{
+    bottom: 0;
+  }
+
+  .lg\:left-0{
+    left: 0;
   }
 
   .lg\:top-1\/2{
@@ -87870,6 +88200,13 @@ video {
     left: -8rem;
   }
 
+  .lg\:hover\:inset-0:hover{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .lg\:hover\:inset-1\/2:hover{
     top: 50%;
     right: 50%;
@@ -87896,6 +88233,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .lg\:hover\:inset-y-0:hover{
+    top: 0;
+    bottom: 0;
+  }
+
+  .lg\:hover\:inset-x-0:hover{
+    right: 0;
+    left: 0;
   }
 
   .lg\:hover\:inset-y-1\/2:hover{
@@ -87936,6 +88283,22 @@ video {
   .lg\:hover\:-inset-x-24:hover{
     right: -8rem;
     left: -8rem;
+  }
+
+  .lg\:hover\:top-0:hover{
+    top: 0;
+  }
+
+  .lg\:hover\:right-0:hover{
+    right: 0;
+  }
+
+  .lg\:hover\:bottom-0:hover{
+    bottom: 0;
+  }
+
+  .lg\:hover\:left-0:hover{
+    left: 0;
   }
 
   .lg\:hover\:top-1\/2:hover{
@@ -88002,6 +88365,13 @@ video {
     left: -8rem;
   }
 
+  .lg\:focus\:inset-0:focus{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .lg\:focus\:inset-1\/2:focus{
     top: 50%;
     right: 50%;
@@ -88028,6 +88398,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .lg\:focus\:inset-y-0:focus{
+    top: 0;
+    bottom: 0;
+  }
+
+  .lg\:focus\:inset-x-0:focus{
+    right: 0;
+    left: 0;
   }
 
   .lg\:focus\:inset-y-1\/2:focus{
@@ -88068,6 +88448,22 @@ video {
   .lg\:focus\:-inset-x-24:focus{
     right: -8rem;
     left: -8rem;
+  }
+
+  .lg\:focus\:top-0:focus{
+    top: 0;
+  }
+
+  .lg\:focus\:right-0:focus{
+    right: 0;
+  }
+
+  .lg\:focus\:bottom-0:focus{
+    bottom: 0;
+  }
+
+  .lg\:focus\:left-0:focus{
+    left: 0;
   }
 
   .lg\:focus\:top-1\/2:focus{
@@ -110958,6 +111354,13 @@ video {
     position: sticky;
   }
 
+  .xl\:inset-0{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .xl\:inset-1\/2{
     top: 50%;
     right: 50%;
@@ -110984,6 +111387,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .xl\:inset-y-0{
+    top: 0;
+    bottom: 0;
+  }
+
+  .xl\:inset-x-0{
+    right: 0;
+    left: 0;
   }
 
   .xl\:inset-y-1\/2{
@@ -111024,6 +111437,22 @@ video {
   .xl\:-inset-x-24{
     right: -8rem;
     left: -8rem;
+  }
+
+  .xl\:top-0{
+    top: 0;
+  }
+
+  .xl\:right-0{
+    right: 0;
+  }
+
+  .xl\:bottom-0{
+    bottom: 0;
+  }
+
+  .xl\:left-0{
+    left: 0;
   }
 
   .xl\:top-1\/2{
@@ -111090,6 +111519,13 @@ video {
     left: -8rem;
   }
 
+  .xl\:hover\:inset-0:hover{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .xl\:hover\:inset-1\/2:hover{
     top: 50%;
     right: 50%;
@@ -111116,6 +111552,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .xl\:hover\:inset-y-0:hover{
+    top: 0;
+    bottom: 0;
+  }
+
+  .xl\:hover\:inset-x-0:hover{
+    right: 0;
+    left: 0;
   }
 
   .xl\:hover\:inset-y-1\/2:hover{
@@ -111156,6 +111602,22 @@ video {
   .xl\:hover\:-inset-x-24:hover{
     right: -8rem;
     left: -8rem;
+  }
+
+  .xl\:hover\:top-0:hover{
+    top: 0;
+  }
+
+  .xl\:hover\:right-0:hover{
+    right: 0;
+  }
+
+  .xl\:hover\:bottom-0:hover{
+    bottom: 0;
+  }
+
+  .xl\:hover\:left-0:hover{
+    left: 0;
   }
 
   .xl\:hover\:top-1\/2:hover{
@@ -111222,6 +111684,13 @@ video {
     left: -8rem;
   }
 
+  .xl\:focus\:inset-0:focus{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .xl\:focus\:inset-1\/2:focus{
     top: 50%;
     right: 50%;
@@ -111248,6 +111717,16 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .xl\:focus\:inset-y-0:focus{
+    top: 0;
+    bottom: 0;
+  }
+
+  .xl\:focus\:inset-x-0:focus{
+    right: 0;
+    left: 0;
   }
 
   .xl\:focus\:inset-y-1\/2:focus{
@@ -111288,6 +111767,22 @@ video {
   .xl\:focus\:-inset-x-24:focus{
     right: -8rem;
     left: -8rem;
+  }
+
+  .xl\:focus\:top-0:focus{
+    top: 0;
+  }
+
+  .xl\:focus\:right-0:focus{
+    right: 0;
+  }
+
+  .xl\:focus\:bottom-0:focus{
+    bottom: 0;
+  }
+
+  .xl\:focus\:left-0:focus{
+    left: 0;
   }
 
   .xl\:focus\:top-1\/2:focus{
