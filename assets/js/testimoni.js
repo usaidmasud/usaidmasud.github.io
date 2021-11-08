@@ -10,18 +10,18 @@ var app = new Vue({
         "photo" : "assets/img/testimonials/avatar-girl.png"
       },
       {
-        "name" : "L. Saiful Rangga",
+        "name" : "Rangga",
         "title" : "Sistem Informasi Ujian Online berbasis WEB",
         "year" : 2017,
         "tools" : "CodeIgniter",
-        "photo" : "assets/img/testimonials/rangga.png"
+        "photo" : "assets/img/testimonials/rangga.PNG"
       },
       {
-        "name" : "Ahmad Muzanni",
+        "name" : "Muzan",
         "title" : "Sistem Informasi Pemesanan Gas berbasis WEB dan Mobile",
         "year" : 2016,
         "tools" : "CodeIgniter & Android Studio",
-        "photo" : "assets/img/testimonials/muzan.png"
+        "photo" : "assets/img/testimonials/muzan.PNG"
       },
       {
         "name" : "Ical",
@@ -31,46 +31,46 @@ var app = new Vue({
         "photo" : "assets/img/testimonials/avatar-man.png"
       },
       {
-        "name" : "Kharisma Erizon",
+        "name" : "Aris",
         "title" : "Sistem Pakar Metode CBR",
         "year" : 2016,
         "tools" : "CodeIgniter",
-        "photo" : "assets/img/testimonials/aris.png"
+        "photo" : "assets/img/testimonials/aris.PNG"
       },
       {
-        "name" : "Dede Kharismawan Saputra",
+        "name" : "Dede",
         "title" : "Sistem Informasi BBI Balai Benih Padi ",
         "year" : 2016,
         "tools" : "CodeIgniter",
-        "photo" : "assets/img/testimonials/dede.png"
+        "photo" : "assets/img/testimonials/dede.PNG"
       },
       {
-        "name" : "Ahmad Muazzim",
+        "name" : "Ajim",
         "title" : "Sistem Pendukung Keputusan Metode Topsis ",
         "year" : 2017,
         "tools" : "CodeIgniter",
-        "photo" : "assets/img/testimonials/ajim.png"
+        "photo" : "assets/img/testimonials/ajim.PNG"
       },
       {
         "name" : "Musta'an",
         "title" : "Sistem Informasi Klinik dengan Penjualan Obat ",
         "year" : 2015,
         "tools" : "CodeIgniter",
-        "photo" : "assets/img/testimonials/mustaan.png"
+        "photo" : "assets/img/testimonials/mustaan.PNG"
       },
       {
         "name" : "Farhan",
         "title" : "Online Shop Penjualan Sayur - Sayuran Lombok Tengah ",
         "year" : 2019,
         "tools" : "CodeIgniter",
-        "photo" : "assets/img/testimonials/avatar-man.png"
+        "photo" : "assets/img/testimonials/avatar-man.PNG"
       },
       {
         "name" : "Imron",
         "title" : "Katalog Brankas",
         "year" : 2020,
         "tools" : "Laravel",
-        "photo" : "assets/img/testimonials/imron.png"
+        "photo" : "assets/img/testimonials/imron.PNG"
       }
     ],
     services: [
