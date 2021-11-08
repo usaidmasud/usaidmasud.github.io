@@ -21,6 +21,7 @@
   }
   $("#age").html(getAge("1990/02/03"));
 
+  $("#year-experience").text(getExperience(2014));
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on("click", ".nav-menu a, .scrollto", function (e) {
     if (
@@ -228,4 +229,10 @@ function getAge(dateString) {
     age--;
   }
   return age;
+}
+
+function getExperience(startFrom) {
+  var today = new Date();
+  var experience = today.getFullYear() - startFrom;
+  return experience;
 }
