@@ -177,7 +177,9 @@
 
     // Initiate venobox (lightbox feature used in portofilo)
     $(document).ready(function () {
-      $(".venobox").venobox();
+      $(".venobox").venobox({
+        titleattr: $(this).data("title")
+      });
     });
   });
 
