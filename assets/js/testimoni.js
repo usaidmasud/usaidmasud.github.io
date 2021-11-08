@@ -63,7 +63,7 @@ var app = new Vue({
         "title" : "Online Shop Penjualan Sayur - Sayuran Lombok Tengah ",
         "year" : 2019,
         "tools" : "CodeIgniter",
-        "photo" : "assets/img/testimonials/avatar-man.PNG"
+        "photo" : "assets/img/testimonials/avatar-man.png"
       },
       {
         "name" : "Imron",
