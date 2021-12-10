@@ -18,6 +18,8 @@
       rel="stylesheet"
     />
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+
     <!-- Vendor CSS Files -->
     <link
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -45,7 +47,7 @@
   ======================================================== -->
   </head>
 
-  <body>
+  <body id="app">
     <!-- ======= Mobile nav toggle button ======= -->
     <button type="button" class="mobile-nav-toggle d-xl-none">
       <i class="icofont-navigation-menu"></i>
@@ -106,6 +108,16 @@
         <button type="button" class="mobile-nav-toggle d-xl-none">
           <i class="icofont-navigation-menu"></i>
         </button>
+
+        <div class="mt-md-5">
+          <a
+            href="assets/cv/cv.pdf"
+            download="assets/cv/cv.pdf"
+            class="btn btn-outline-primary btn-block"
+          >
+            <i class="bx bx-download"></i> Download CV
+          </a>
+        </div>
       </div>
     </header>
     <!-- End Header -->
@@ -121,7 +133,7 @@
           I'm
           <span
             class="typed"
-            data-typed-items="Designer, Developer, Freelancer"
+            data-typed-items="Programmer, Designer, Freelancer"
           ></span>
         </p>
       </div>
@@ -137,9 +149,9 @@
             <p>
               Seorang profesional bidang IT dengan pengalaman lebih dari
               <span id="year-experience"></span> tahun bidang IT, dengan
-              keahlian dalam pembuatan website dan mobile, Saya mampu memahami
-              dinamika bisnis, yang dapat mempersingkat infrastruktur dan
-              aplikasi.
+              keahlian dalam pembuatan website dan mobile, mampu memahami
+              dinamika bisnis, yang dapat mempersingkat infrastruktur dalam
+              sistem / aplikasi.
             </p>
           </div>
           <div class="row">
@@ -168,8 +180,9 @@
                     </li>
                     <li>
                       <i class="icofont-rounded-right"></i>
-                      <strong>City:</strong> Keru - Narmada NTB
+                      <strong>Email:</strong> syaripmasud@gmail.com
                     </li>
+
                     <li>
                       <i class="icofont-rounded-right"></i>
                       <strong>Age:&nbsp;</strong><span id="age"></span>
@@ -184,7 +197,7 @@
                     </li>
                     <li>
                       <i class="icofont-rounded-right"></i>
-                      <strong>Email:</strong> syaripmasud@gmail.com
+                      <strong>City:</strong> Keru - Narmada NTB
                     </li>
                     <li>
                       <i class="icofont-rounded-right"></i>
@@ -339,7 +352,7 @@
               </div>
 
               <div class="progress">
-                <span class="skill">WordPress/CMS <i class="val">50%</i></span>
+                <span class="skill">WordPress/CMS <i class="val">60%</i></span>
                 <div class="progress-bar-wrap">
                   <div
                     class="progress-bar"
@@ -353,7 +366,7 @@
 
               <div class="progress">
                 <span class="skill"
-                  >Photoshop &amp; CorelDraw <i class="val">45%</i></span
+                  >Photoshop &amp; CorelDraw <i class="val">60%</i></span
                 >
                 <div class="progress-bar-wrap">
                   <div
@@ -649,9 +662,6 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>iPortfolio</span></strong>
-        </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->

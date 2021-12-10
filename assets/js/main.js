@@ -19,9 +19,10 @@
       backDelay: 2000,
     });
   }
-  $("#age").html(getAge("1990/02/03"));
+  let age = getAge("1990/02/03")
+  $("#age").html(numeral(parseInt(age)).format('0o'));
 
-  $("#year-experience").text(getExperience(2014));
+  $("#year-experience").text(numeral(getExperience(2014)).format('0o'));
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on("click", ".nav-menu a, .scrollto", function (e) {
     if (
