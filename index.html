@@ -143,11 +143,11 @@
           <div class="section-title">
             <h2>About</h2>
             <p>
-              Seorang profesional bidang IT dengan pengalaman lebih dari
-              <span id="year-experience"></span> tahun bidang IT, dengan
-              keahlian dalam pembuatan website dan mobile, mampu memahami
-              dinamika bisnis sehingga dapat mempersingkat infrastruktur dalam
-              sistem / aplikasi.
+              Saya Seorang fullstack developer dengan pengalaman lebih dari
+              <span id="year-experience"></span> tahun, saat ini saya
+              menggunakan reactjs / nextjs dan tailwind sebagai front end dan
+              laravel sebagai back end ,dan saya mampu memahami dinamika bisnis
+              sehingga dapat mempersingkat infrastruktur dalam sistem.
             </p>
           </div>
           <div class="row">
@@ -282,100 +282,15 @@
             <p></p>
           </div>
 
-          <div class="row skills-content">
-            <div
-              class="col-lg-6 col-md-6 col-sm-6 col-xs-12"
-              data-aos="fade-up"
-            >
-              <div class="progress">
-                <span class="skill">HTML <i class="val">85%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="85"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">CSS <i class="val">60%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="60"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill"
-                  >JavaScript (React JS) <i class="val">60%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="60"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-6 col-md-6 col-sm-6 col-xs-12"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="progress">
-                <span class="skill">PHP (Laravel) <i class="val">75%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">WordPress/CMS <i class="val">60%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="50"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill"
-                  >Photoshop &amp; CorelDraw <i class="val">60%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="45"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ul
+            v-for="s in skills"
+            :key="s"
+            v-bind:class="s"
+            class="row skills-content"
+          >
+            <li class="">{{ s }}</li>
+            </li>
+          </ul>
         </div>
       </section>
       <!-- End Skills Section -->
