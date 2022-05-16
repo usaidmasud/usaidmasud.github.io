@@ -1,8 +1,27 @@
 var app = new Vue({
   el: '#main',
   data: {
+    skills: [
+      "Laravel",
+      "Codeigniter",
+      "Nextjs",
+      "Reactjs",
+      "Tailwindcss",
+      "Redux Toolkit",
+      "Wordpress",
+      "Photoshop",
+      "Corel Draw",
+    ],
     testimonies: [
 
+      {
+        "name": "PT CBM",
+        "title": "Travel Booking",
+        "year": 2022,
+        "tools": "Nextjs",
+        "photo": "assets/img/testimonials/cbm.svg",
+        "basis": "web"
+      },
       {
         "name": "PT CBM",
         "title": "Sistem ERP (Enterprise Resource Planning)",
@@ -129,11 +148,6 @@ var app = new Vue({
         title: "Website Builder",
         description: "Pembuatan Website baik menggunakan Framework PHP dan/atau CMS",
         icon: "icofont-web"
-      },
-      {
-        title: "Mobile Application",
-        description: "Development aplikasi mobile menggunakan React Native",
-        icon: "icofont-brand-android-robot"
       },
       {
         title: "Mikrotik",
