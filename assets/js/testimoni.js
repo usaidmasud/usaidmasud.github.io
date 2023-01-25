@@ -2,15 +2,63 @@ var app = new Vue({
   el: '#main',
   data: {
     skills: [
-      "Laravel",
-      "Codeigniter",
-      "Nextjs",
-      "Reactjs",
-      "Tailwindcss",
-      "Redux Toolkit",
-      "Wordpress",
-      "Photoshop",
-      "Corel Draw",
+      {
+        title:"Laravel",
+        image:"/assets/img/skills/skill-laravel.png",
+        color:"bg-light"
+      },
+      {
+        title:"Codeigniter",
+        image:"/assets/img/skills/skill-ci.png",
+        color:"bg-light"
+      },
+      {
+        title:"Nextjs",
+        image:"/assets/img/skills/skill-nextjs.png",
+        color:"bg-light"
+      },
+      {
+        title:"Nestjs",
+        image:"/assets/img/skills/skill-nestjs.png",
+        color:"bg-light"
+      },
+      {
+        title:"Reactjs",
+        image:"/assets/img/skills/skill-react.png",
+        color:"bg-light"
+      },
+      {
+        title:"Tailwindcss",
+        image:"/assets/img/skills/skill-tailwind.png",
+        color:"bg-light"
+      },
+      {
+        title:"Redux Toolkit",
+        image:"/assets/img/skills/skill-rtk.png",
+        color:"bg-light"
+      },
+      {
+        title:"Wordpress",
+        image:"/assets/img/skills/skill-wp.png",
+        color:"bg-light"
+      },
+      {
+        title:"Photoshop",
+        image:"/assets/img/skills/skill-ps.png",
+        color:"bg-light"
+      },
+      {
+        title:"Corel Draw",
+        image:"/assets/img/skills/skill-cd.png",
+        color:"bg-light"
+      },
+    ],
+    sponsors: [
+      {
+        title:"Isticom",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHN8VZBh3H-DJG7Cp3kfbRDnd7UF932qrhJMVqjA7uJw&s",
+        color:"bg-secondary"
+      }
     ],
     testimonies: [
 
@@ -146,11 +194,11 @@ var app = new Vue({
     services: [
       {
         title: "Website Builder",
-        description: "Pembuatan Website baik menggunakan Framework PHP dan/atau CMS",
+        description: "Melayani jasa pembuatan website, seperti sekolah, toko, profile company, dll",
         icon: "icofont-web"
       },
       {
-        title: "Mikrotik",
+        title: "Internet",
         description: "Instalasi jaringan internet dan config mikrotik untuk membagi jaringan dalam kantor / sekolah",
         icon: "icofont-wifi"
       },
@@ -158,6 +206,21 @@ var app = new Vue({
         title: "Design Grafis",
         description: "Design ID Card, Brosur, Spanduk dll",
         icon: "icofont-computer"
+      },
+      {
+        title: "Service dan Pengadaan Komputer",
+        description: "Kami juga melayani service dan pengadaan komputer",
+        icon: "icofont-computer"
+      },
+      {
+        title: "CCTV",
+        description: "Instalasi CCTV",
+        icon: "icofont-video-cam"
+      },
+      {
+        title: "Kelistrikan",
+        description: "Instalasi kabel listrik dan panel rumahan",
+        icon: "icofont-tools-alt-2"
       }
     ],
     portfolios: [
@@ -230,7 +293,47 @@ var app = new Vue({
         title: "",
         type: "filter-desktop",
         image: "assets/img/portfolio/j-2.png"
-      }
+      },
+      {
+        title: "",
+        type: "filter-cctv",
+        image: "assets/img/portfolio/cctv-1.jpg"
+      },
+      {
+        title: "",
+        type: "filter-computer",
+        image: "assets/img/portfolio/c-1.jpg"
+      },
+      {
+        title: "",
+        type: "filter-computer",
+        image: "assets/img/portfolio/c-2.jpg"
+      },
+      {
+        title: "",
+        type: "filter-listrik",
+        image: "assets/img/portfolio/l-1.jpg"
+      },
+      {
+        title: "",
+        type: "filter-listrik",
+        image: "assets/img/portfolio/l-2.jpg"
+      },
+      {
+        title: "Panel Listrik Otomatis Manual Toren Air dan shower",
+        type: "filter-listrik",
+        image: "assets/img/portfolio/l-3.jpg"
+      },
+      {
+        title: "",
+        type: "filter-internet",
+        image: "assets/img/portfolio/internet-1.jpg"
+      },
+      {
+        title: "Panel Listrik Otomatis Manual Toren Air dan shower",
+        type: "filter-internet",
+        image: "assets/img/portfolio/internet-2.jpg"
+      },
     ]
   }
 })
