@@ -398,21 +398,22 @@
               <h2>Sponsor</h2>
             </div>
   
-            <div class="row no-gutters">
+            <div class="row">
               <div
-                class="col-2 d-md-flex align-items-md-stretch"
-                data-aos="fade-up"
                 v-for="s in sponsors"
-                  :key="s"
-                  v-bind:class="s"
+                :key="s"
+                v-bind:class="s"
+                class="col-6 col-md-2"
               >
-                  <div data-aos="fade-up" class="d-flex flex-column justify-content-center align-items-center">
-                    <div style="width: 250px; height: 250px;" :class="s.color" class=" d-flex justify-content-center align-items-center">
-                      <img :src="s.image" :alt="s.title" class="w-50">
-                    </div>
-                      <h6 class="mt-2 text-muted">{{s.title}}</h6>
+                <div data-aos="fade-up" class="d-flex flex-column justify-content-center align-items-center">
+                  <div style="width: 60px; height: 60px;" :class="s.color" class="rounded-circle d-flex justify-content-center align-items-center">
+                    <img :src="s.image" :alt="s.title" class="w-50">
                   </div>
+                    <h6 class="mt-2 text-muted">{{s.title}}</h6>
                 </div>
+                <!-- <li class="">{{ s }}</li>
+                </li> -->
+              </div>
             </div>
           </div>
         </section>
