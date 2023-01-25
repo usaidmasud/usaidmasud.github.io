@@ -51,7 +51,7 @@ var app = new Vue({
         title:"Corel Draw",
         image:"/assets/img/skills/skill-cd.png",
         color:"bg-light"
-      },
+      }
     ],
     sponsors: [
       {
@@ -61,7 +61,6 @@ var app = new Vue({
       }
     ],
     testimonies: [
-
       {
         "name": "PT CBM",
         "title": "Travel Booking",
@@ -320,7 +319,7 @@ var app = new Vue({
         image: "assets/img/portfolio/l-2.jpg"
       },
       {
-        title: "Panel Listrik Otomatis Manual Toren Air dan shower",
+        title: "",
         type: "filter-listrik",
         image: "assets/img/portfolio/l-3.jpg"
       },
@@ -330,10 +329,10 @@ var app = new Vue({
         image: "assets/img/portfolio/internet-1.jpg"
       },
       {
-        title: "Panel Listrik Otomatis Manual Toren Air dan shower",
+        title: "",
         type: "filter-internet",
         image: "assets/img/portfolio/internet-2.jpg"
-      },
+      }
     ]
   }
 })
