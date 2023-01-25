@@ -9,8 +9,8 @@
     <meta content="usaidmasud, syarip, syaripmasud,masud" name="keywords" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="/assets/img/favicon.png" rel="icon" />
+    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -22,23 +22,23 @@
 
     <!-- Vendor CSS Files -->
     <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      href="/assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link href="/assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="/assets/vendor/venobox/venobox.css" rel="stylesheet" />
     <link
-      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      href="/assets/vendor/owl.carousel/assets/owl.carousel.min.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="/assets/vendor/aos/aos.css" rel="stylesheet" />
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script> -->
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="/assets/css/style.css" rel="stylesheet" />
     <!-- =======================================================
   * Template Name: iPortfolio - v1.4.1
   * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -58,9 +58,9 @@
       <div class="d-flex flex-column">
         <div class="profile">
           <img
-            src="assets/img/pas-photo.png"
+            src="/assets/img/pas-photo.png"
             alt=""
-            class="img-fluid rounded-circle"
+            class="w-25 h-25 rounded-circle bg-light "
           />
           <h1 class="text-light"><a href="#">Syarip Mas'ud</a></h1>
           <div class="social-links mt-3 text-center">
@@ -81,10 +81,10 @@
         <nav class="nav-menu">
           <ul>
             <li class="active">
-              <a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a>
+              <a href="#home"><i class="bx bx-home"></i> <span>Home</span></a>
             </li>
             <li>
-              <a href="#about"><i class="bx bx-user"></i> <span>About</span></a>
+              <a href="#skills"><i class="bx bx-brain"></i> <span>Skill</span></a>
             </li>
             <li>
               <a href="#resume"
@@ -92,13 +92,22 @@
               >
             </li>
             <li>
+              <a href="#services"><i class="bx bx-server"></i> Services</a>
+            </li>
+            <li>
+              <a href="#sponsor"><i class="bx bx-server"></i> Sponsor</a>
+            </li>
+            <li>
               <a href="#portfolio"
                 ><i class="bx bx-book-content"></i> Portfolio</a
               >
             </li>
             <li>
-              <a href="#services"><i class="bx bx-server"></i> Services</a>
+              <a href="#testimonials"
+                ><i class="bx bx-message-square-dots"></i> Testimony</a
+              >
             </li>
+           
             <li>
               <a href="#contact"><i class="bx bx-envelope"></i> Contact</a>
             </li>
@@ -110,7 +119,7 @@
         </button>
 
         <div class="mt-md-5">
-          <a href="assets/cv/cv.pdf" class="btn btn-outline-primary btn-block">
+          <a href="/assets/cv/cv.pdf" class="btn btn-outline-primary btn-block">
             <i class="bx bx-download"></i> Download CV
           </a>
         </div>
@@ -119,7 +128,7 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section
+    <!-- <section
       id="hero"
       class="d-flex flex-column justify-content-center align-items-center"
     >
@@ -133,20 +142,20 @@
           ></span>
         </p>
       </div>
-    </section>
+    </section> -->
     <!-- End Hero -->
 
     <main id="main">
       <!-- ======= About Section ======= -->
-      <section id="about" class="about">
+      <section id="home" class="about">
         <div class="container">
           <div class="section-title">
             <h2>About</h2>
             <p>
-              Saya Seorang fullstack developer dengan pengalaman lebih dari
-              <span id="year-experience"></span> tahun, saat ini saya
-              menggunakan reactjs / nextjs dan tailwind sebagai front end dan
-              laravel sebagai back end ,dan saya mampu memahami dinamika bisnis
+              Saya Seorang fullstack web dengan pengalaman lebih dari
+              <span id="year-experience"></span> tahun, saya sangat senang belajar hal baru dalam dunia pemrograman, saat ini saya
+              menggunakan nextjs dan tailwind sebagai front end dan
+              laravel / nestjs sebagai back end, dan saya mampu memahami dinamika bisnis
               sehingga dapat mempersingkat infrastruktur dalam sistem.
             </p>
           </div>
@@ -156,7 +165,7 @@
               data-aos="fade-right"
             >
               <img
-                src="assets/img/pas-photo.png"
+                src="/assets/img/pas-photo.png"
                 class="img-fluid img-thumbnail"
                 alt=""
               />
@@ -209,6 +218,7 @@
       </section>
       <!-- End About Section -->
 
+      
       <!-- ======= Facts Section ======= -->
       <!-- <section id="facts" class="facts">
         <div class="container">
@@ -281,19 +291,28 @@
             <h2>Skills</h2>
             <p></p>
           </div>
-
-          <ul
-            v-for="s in skills"
-            :key="s"
-            v-bind:class="s"
-            class="row skills-content"
-          >
-            <li class="">{{ s }}</li>
-            </li>
-          </ul>
+          <div class="row">
+            <div
+              v-for="s in skills"
+              :key="s"
+              v-bind:class="s"
+              class="col-6 col-md-2"
+            >
+              <div data-aos="fade-up" class="d-flex flex-column justify-content-center align-items-center">
+                <div style="width: 60px; height: 60px;" :class="s.color" class="rounded-circle d-flex justify-content-center align-items-center">
+                  <img :src="s.image" :alt="s.title" class="w-50">
+                </div>
+                  <h6 class="mt-2 text-muted">{{s.title}}</h6>
+              </div>
+              <!-- <li class="">{{ s }}</li>
+              </li> -->
+            </div>
+          </div>
         </div>
       </section>
       <!-- End Skills Section -->
+
+    
 
       <!-- ======= Resume Section ======= -->
       <section id="resume" class="resume">
@@ -321,7 +340,7 @@
               </div>
               <div class="resume-item">
                 <h4>Staff IT</h4>
-                <h5>2017 - now</h5>
+                <h5>Nov 2017 - Des 2022</h5>
                 <p><em>CV Brajamarketindo </em></p>
                 <!-- <ul>
                   <li>
@@ -348,60 +367,8 @@
       </section>
       <!-- End Resume Section -->
 
-      <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>Portfolio</h2>
-            <p></p>
-          </div>
-
-          <div class="row" data-aos="fade-up">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-design">Design</li>
-                <li data-filter=".filter-web">Web</li>
-                <li data-filter=".filter-desktop">Desktop</li>
-              </ul>
-            </div>
-          </div>
-
-          <div
-            class="row portfolio-container"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div
-              v-for="p in portfolios"
-              :key="p.id"
-              class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item"
-              v-bind:class="p.type"
-            >
-              <div class="portfolio-wrap">
-                <img :src="p.image" class="img-fluid" alt="" />
-                <div class="portfolio-links">
-                  <a
-                    :href="p.image"
-                    title="Here your description"
-                    data-gall="portfolioGallery"
-                    class="venobox"
-                    title="App 1"
-                    ><i class="bx bx-search"></i
-                  ></a>
-                  <!-- <a href="#" title="More Details"
-                    ><i class="bx bx-info-circle"></i
-                  ></a> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
-
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services">
+       <!-- ======= Services Section ======= -->
+       <section id="services" class="services">
         <div class="container">
           <div class="section-title">
             <h2>Services</h2>
@@ -423,6 +390,90 @@
         </div>
       </section>
       <!-- End Services Section -->
+
+        <!-- ======= Sponsor Section ======= -->
+        <section id="sponsor" class="facts">
+          <div class="container">
+            <div class="section-title">
+              <h2>Sponsor</h2>
+            </div>
+  
+            <div class="row no-gutters">
+              <div
+                class="col-2 d-md-flex align-items-md-stretch"
+                data-aos="fade-up"
+                v-for="s in sponsors"
+                  :key="s"
+                  v-bind:class="s"
+              >
+                  <div data-aos="fade-up" class="d-flex flex-column justify-content-center align-items-center">
+                    <div style="width: 250px; height: 250px;" :class="s.color" class=" d-flex justify-content-center align-items-center">
+                      <img :src="s.image" :alt="s.title" class="w-50">
+                    </div>
+                      <h6 class="mt-2 text-muted">{{s.title}}</h6>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Sponsor Section -->
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <p></p>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-design">Design</li>
+                <li data-filter=".filter-web">Web</li>
+                <li data-filter=".filter-desktop">Desktop</li>
+                <li data-filter=".filter-internet">Internet</li>
+                <li data-filter=".filter-cctv">CCTV</li>
+                <li data-filter=".filter-computer">Komputer</li>
+                <li data-filter=".filter-listrik">Listrik</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div
+              v-for="p in portfolios"
+              :key="p.id"
+              class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item"
+              v-bind:class="p.type"
+            >
+              <div class="portfolio-wrap">
+                <img :src="p.image" class="img-fluid" alt="" />
+                <div class="portfolio-links">
+                  <a
+                    :href="p.image"
+                    :title="p.title"
+                    data-gall="portfolioGallery"
+                    class="venobox"
+                    title="App 1"
+                    ><i class="bx bx-search"></i
+                  ></a>
+                  <!-- <a href="#" title="More Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+     
 
       <!-- ======= Testimonials Section ======= -->
       <section id="testimonials" class="testimonials section-bg">
@@ -587,23 +638,23 @@
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="assets/vendor/counterup/counterup.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/venobox/venobox.min.js"></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendor/typed.js/typed.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="/assets/vendor/php-email-form/validate.js"></script>
+    <script src="/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="/assets/vendor/counterup/counterup.min.js"></script>
+    <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/assets/vendor/venobox/venobox.min.js"></script>
+    <script src="/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="/assets/vendor/typed.js/typed.min.js"></script>
+    <script src="/assets/vendor/aos/aos.js"></script>
 
     <!-- Template Main JS File -->
     <!-- <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script> -->
-    <!-- <script type="text/babel" src="assets/js/testimoni.js"></script> -->
-    <script src="assets/js/testimoni.js"></script>
-    <script src="assets/js/main.js"></script>
+    <!-- <script type="text/babel" src="/assets/js/testimoni.js"></script> -->
+    <script src="/assets/js/testimoni.js"></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
