@@ -63,6 +63,22 @@ var app = new Vue({
     testimonies: [
       {
         "name": "PT CBM",
+        "title": "ERP Bisnis",
+        "year": 2023,
+        "tools": "Nextjs - NestJS",
+        "photo": "assets/img/testimonials/cbm.svg",
+        "basis": "web"
+      },
+      {
+        "name": "CV DEDI MANDIRI",
+        "title": "Point of sales",
+        "year": 2022,
+        "tools": "Nextjs - NestJS",
+        "photo": "assets/img/testimonials/cv-dedi-mandiri.png",
+        "basis": "web"
+      },
+      {
+        "name": "PT CBM",
         "title": "Travel Booking",
         "year": 2022,
         "tools": "Nextjs",
